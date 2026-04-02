@@ -21,11 +21,15 @@ function linkifyParagraph(text) {
 }
 
 export function renderPage(root, data) {
-  const { meta, about, experiences, publishedWorks, skillGroups, volunteering } =
-    data;
+  const meta = data?.meta ?? {};
+  const about = data?.about ?? {};
+  const experiences = data?.experiences ?? [];
+  const publishedWorks = data?.publishedWorks ?? [];
+  const skillGroups = data?.skillGroups ?? [];
+  const volunteering = data?.volunteering ?? [];
 
   const byCat = { professional: [], leadership: [], education: [] };
-  for (const exp of experiences || []) {
+  for (const exp of experiences) {
     const c = exp.category in byCat ? exp.category : "professional";
     byCat[c].push(exp);
   }

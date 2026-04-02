@@ -6,7 +6,8 @@ const EDIT_PASSWORD_HASH =
   "34983188c4fe042f241fceba2f2547159748021128665ce21a469bae83b2ea99";
 
 export async function fetchBaseContent() {
-  const res = await fetch("data/content.json", { cache: "no-store" });
+  const url = new URL("../data/content.json", import.meta.url);
+  const res = await fetch(url, { cache: "no-store" });
   if (!res.ok) throw new Error("Could not load content.json");
   return res.json();
 }
