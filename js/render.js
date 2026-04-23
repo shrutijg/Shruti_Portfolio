@@ -116,6 +116,7 @@ export function renderPage(root, data) {
   const resumeHref = meta.resumeFile
     ? esc(meta.resumeFile)
     : "#";
+  const researchHref = esc("ShrutiGarapati_ACerS_2026_2.pdf");
 
   root.innerHTML = `
     <header class="hero">
@@ -127,6 +128,7 @@ export function renderPage(root, data) {
         <div class="hero__stats">${statsHtml}</div>
         <div class="hero__actions">
           <a class="btn btn--primary" href="${resumeHref}" download>Download résumé</a>
+          <a class="btn btn--ghost" href="${researchHref}" download="ShrutiGarapati_ACerS_2026_2.pdf">See My Research</a>
           <a class="btn btn--ghost" href="#contact">Contact</a>
         </div>
       </div>
