@@ -1,0 +1,140 @@
+{
+  "version": 1,
+  "meta": {
+    "name": "Shruti Garapati",
+    "title": "Math & Computer Science · Data & Research",
+    "tagline": "Research-driven analyst exploring materials science, markets, and the stories data can tell.",
+    "email": "sjg9643@nyu.edu",
+    "phone": "(402) 321-5456",
+    "location": "New York, NY",
+    "resumeFile": "Garapati_Shruti_Resume_2.pdf",
+    "links": [
+      { "label": "Email", "url": "mailto:sjg9643@nyu.edu" }
+    ]
+  },
+  "about": {
+    "headline": "Building rigorous analysis across the lab, markets, and publications.",
+    "paragraphs": [
+      "I'm an undergraduate at NYU studying Math and Computer Science with a minor in Data Science. My work spans scanning electron microscopy research on 3D-printable glass nanoparticles, quantitative prep with the NYU Math Finance Group, and writing for the Data Science Society.",
+      "I'm drawn to problems that need both careful measurement and clear communication—whether that's presenting at ceramics and sol-gel conferences, modeling strategy in card games, or interviewing practitioners in data science."
+    ],
+    "highlightStats": [
+      { "label": "NYU GPA", "value": "3.61" },
+      { "label": "ACT", "value": "35" },
+      { "label": "Graduation", "value": "2028" }
+    ]
+  },
+  "skillGroups": [
+    {
+      "title": "Technical",
+      "items": ["Python", "Java", "HTML/CSS", "Excel", "Data analysis", "Fiji/ImageJ"]
+    },
+    {
+      "title": "Lab & instruments",
+      "items": ["SEM", "RAMAN", "FTIR", "Research presentation"]
+    },
+    {
+      "title": "Interests",
+      "items": ["Literary fiction", "Oil painting", "Science fiction", "Basketball & tennis", "Miami Heat"]
+    }
+  ],
+  "experiences": [
+    {
+      "id": "exp-creighton",
+      "category": "professional",
+      "organization": "Creighton University",
+      "location": "Omaha, NE",
+      "role": "Student Researcher",
+      "dates": "May 2023 – Present",
+      "bullets": [
+        "Research on Scanning Electron Microscopy analysis of 3D-printable glass nanoparticles.",
+        "Analyzed data with Excel and Fiji; presented at All Iowa Glass conference (2023–2025).",
+        "Scheduled to present at the American Ceramics Society and International Sol-Gel Society conferences (2026)."
+      ]
+    },
+    {
+      "id": "exp-swimtastic",
+      "category": "professional",
+      "organization": "Swimtastic Swim School",
+      "location": "Omaha, NE",
+      "role": "Receptionist / Swim Instructor",
+      "dates": "Jan 2020 – Jan 2023",
+      "bullets": [
+        "Bookkeeping, accounting, and payroll timekeeping for 50+ employees and 200+ families.",
+        "Front-desk billing and enrollment; swim instruction for learners of varied ages."
+      ]
+    },
+    {
+      "id": "exp-math-finance",
+      "category": "leadership",
+      "organization": "NYU Math Finance Group",
+      "location": "New York, NY",
+      "role": "Trading Team Member",
+      "dates": "Aug 2024 – May 2025",
+      "bullets": [
+        "Weekly market research readouts; quantitative and probability interview preparation.",
+        "Modeled markets mathematically, including probability and strategy in card games."
+      ]
+    },
+    {
+      "id": "exp-dss",
+      "category": "leadership",
+      "organization": "NYU Data Science Society",
+      "location": "New York, NY",
+      "role": "Publications Committee Writer",
+      "dates": "Jan 2026 – Present",
+      "bullets": [
+        "Monthly articles on data science topics for the society Medium publication.",
+        "Weekly interviews with data professionals; research on market trends and news."
+      ]
+    },
+    {
+      "id": "exp-same",
+      "category": "leadership",
+      "organization": "SAME Student Mentoring Program",
+      "location": "Omaha, NE",
+      "role": "President",
+      "dates": "Aug 2023 – May 2024",
+      "bullets": [
+        "Ran meetings, schedules, and workshops for 25+ students across engineering disciplines.",
+        "Guided multi-disciplinary projects and hands-on engineering problem solving."
+      ]
+    },
+    {
+      "id": "edu-nyu",
+      "category": "education",
+      "organization": "New York University, College of Arts and Science",
+      "location": "New York, NY",
+      "role": "B.A. Mathematics & Computer Science; Minor: Data Science",
+      "dates": "Sep 2024 – May 2028",
+      "bullets": [
+        "Strategic Venture Society (Venturist), NYU Math Society, NYU Data Science Society (Publications), NYU American Chemical Society."
+      ]
+    },
+    {
+      "id": "edu-central",
+      "category": "education",
+      "organization": "Omaha Central High School",
+      "location": "Omaha, NE",
+      "role": "High School Diploma — Summa cum laude",
+      "dates": "Aug 2020 – May 2024",
+      "bullets": [
+        "GPA 4.86 | ACT 35 | ACS Research Award, National Merit Commended, NHS, Presidential Honors Scholar candidate."
+      ]
+    }
+  ],
+  "publishedWorks": [
+    {
+      "id": "work-medium-placeholder",
+      "title": "NYU Data Science Society — Medium articles",
+      "outlet": "Medium (NYU Data Science Society)",
+      "date": "2026",
+      "url": "",
+      "summary": "Add your article URLs and titles here as you publish. Use Edit mode to update this card or add more."
+    }
+  ],
+  "volunteering": [
+    "NYU Two Birds One Stone — volunteer & delivery lead (2024–present)",
+    "Omaha Public Library — volunteer board & events (2022–2024)"
+  ]
+}
